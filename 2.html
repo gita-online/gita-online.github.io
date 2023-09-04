@@ -16,12 +16,13 @@
 </head>
 
 <body>
+    <!-- SCROLL BAR -->
     <div class="progess-bar-header">
         <div class="progress-container">
             <div class="progress-bar" id="progressBar"></div>
         </div>
     </div>
-
+    <!-- NAVBAR -->
     <nav class="navbar shadow-lg px-2 py-3" id="navbar">
         <div class="col-1">
             <a href="/1.html" class="btn btn-nav btn-secondary-outline"><span
@@ -43,11 +44,13 @@
         </div>
     </nav>
 
+    <!-- CHAPTER INFORMATION USED BY SIDEBAR CREATOR -->
     <div id="chapter_information" data-n-verses="72" data-chapter-no="2"
         data-chapter-title="THE WAY OF KNOWLEDGE"></div>
 
     <div class="container">
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="1"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -81,9 +84,20 @@ viṣhīdantamidaṁ vākyam uvācha madhusūdanaḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('1_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="1_audio" src="/recitation/2_1.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_1"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_1"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_1"
+                                src="/recitation/2_1.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:1</h4>
@@ -97,6 +111,7 @@ viṣhīdantamidaṁ vākyam uvācha madhusūdanaḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="2"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -130,9 +145,20 @@ anārya-juṣhṭamaswargyam akīrti-karam arjuna
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('2_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="2_audio" src="/recitation/2_2.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_2"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_2"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_2"
+                                src="/recitation/2_2.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:2</h4>
@@ -146,6 +172,7 @@ anārya-juṣhṭamaswargyam akīrti-karam arjuna
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="3"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -178,9 +205,20 @@ kṣhudraṁ hṛidaya-daurbalyaṁ tyaktvottiṣhṭha parantapa
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('3_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="3_audio" src="/recitation/2_3.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_3"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_3"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_3"
+                                src="/recitation/2_3.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:3</h4>
@@ -194,6 +232,7 @@ kṣhudraṁ hṛidaya-daurbalyaṁ tyaktvottiṣhṭha parantapa
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="4"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -227,9 +266,20 @@ iṣhubhiḥ pratiyotsyāmi pūjārhāvari-sūdana
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('4_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="4_audio" src="/recitation/2_4.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_4"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_4"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_4"
+                                src="/recitation/2_4.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:4</h4>
@@ -243,6 +293,7 @@ iṣhubhiḥ pratiyotsyāmi pūjārhāvari-sūdana
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="5"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -277,9 +328,20 @@ bhuñjīya bhogān rudhira-pradigdhān
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('5_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="5_audio" src="/recitation/2_5.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_5"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_5"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_5"
+                                src="/recitation/2_5.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:5</h4>
@@ -293,6 +355,7 @@ bhuñjīya bhogān rudhira-pradigdhān
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="6"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -327,9 +390,20 @@ te ’vasthitāḥ pramukhe dhārtarāṣhṭrāḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('6_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="6_audio" src="/recitation/2_6.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_6"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_6"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_6"
+                                src="/recitation/2_6.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:6</h4>
@@ -343,6 +417,7 @@ te ’vasthitāḥ pramukhe dhārtarāṣhṭrāḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="7"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -377,9 +452,20 @@ yach-chhreyaḥ syānniśhchitaṁ brūhi tanme
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('7_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="7_audio" src="/recitation/2_7.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_7"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_7"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_7"
+                                src="/recitation/2_7.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:7</h4>
@@ -393,6 +479,7 @@ yach-chhreyaḥ syānniśhchitaṁ brūhi tanme
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="8"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -427,9 +514,20 @@ rājyaṁ surāṇāmapi chādhipatyam
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('8_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="8_audio" src="/recitation/2_8.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_8"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_8"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_8"
+                                src="/recitation/2_8.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:8</h4>
@@ -443,6 +541,7 @@ rājyaṁ surāṇāmapi chādhipatyam
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="9"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -476,9 +575,20 @@ na yotsya iti govindam uktvā tūṣhṇīṁ babhūva ha
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('9_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="9_audio" src="/recitation/2_9.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_9"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_9"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_9"
+                                src="/recitation/2_9.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:9</h4>
@@ -492,6 +602,7 @@ na yotsya iti govindam uktvā tūṣhṇīṁ babhūva ha
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="10"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -524,9 +635,20 @@ senayorubhayor-madhye viṣhīdantam-idaṁ vachaḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('10_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="10_audio" src="/recitation/2_10.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_10"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_10"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_10"
+                                src="/recitation/2_10.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:10</h4>
@@ -540,6 +662,7 @@ senayorubhayor-madhye viṣhīdantam-idaṁ vachaḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="11"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -573,9 +696,20 @@ gatāsūn-agatāsūnśh-cha nānuśhochanti paṇḍitāḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('11_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="11_audio" src="/recitation/2_11.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_11"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_11"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_11"
+                                src="/recitation/2_11.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:11</h4>
@@ -589,6 +723,7 @@ gatāsūn-agatāsūnśh-cha nānuśhochanti paṇḍitāḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="12"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -621,9 +756,20 @@ na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('12_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="12_audio" src="/recitation/2_12.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_12"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_12"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_12"
+                                src="/recitation/2_12.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:12</h4>
@@ -637,6 +783,7 @@ na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="13"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -669,9 +816,20 @@ tathā dehāntara-prāptir dhīras tatra na muhyati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('13_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="13_audio" src="/recitation/2_13.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_13"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_13"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_13"
+                                src="/recitation/2_13.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:13</h4>
@@ -685,6 +843,7 @@ tathā dehāntara-prāptir dhīras tatra na muhyati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="14"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -717,9 +876,20 @@ tathā dehāntara-prāptir dhīras tatra na muhyati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('14_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="14_audio" src="/recitation/2_14.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_14"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_14"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_14"
+                                src="/recitation/2_14.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:14</h4>
@@ -733,6 +903,7 @@ tathā dehāntara-prāptir dhīras tatra na muhyati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="15"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -765,9 +936,20 @@ sama-duḥkha-sukhaṁ dhīraṁ so ’mṛitatvāya kalpate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('15_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="15_audio" src="/recitation/2_15.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_15"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_15"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_15"
+                                src="/recitation/2_15.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:15</h4>
@@ -781,6 +963,7 @@ sama-duḥkha-sukhaṁ dhīraṁ so ’mṛitatvāya kalpate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="16"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -813,9 +996,20 @@ ubhayorapi dṛiṣhṭo ’nta stvanayos tattva-darśhibhiḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('16_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="16_audio" src="/recitation/2_16.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_16"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_16"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_16"
+                                src="/recitation/2_16.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:16</h4>
@@ -829,6 +1023,7 @@ ubhayorapi dṛiṣhṭo ’nta stvanayos tattva-darśhibhiḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="17"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -861,9 +1056,20 @@ vināśham avyayasyāsya na kaśhchit kartum arhati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('17_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="17_audio" src="/recitation/2_17.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_17"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_17"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_17"
+                                src="/recitation/2_17.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:17</h4>
@@ -877,6 +1083,7 @@ vināśham avyayasyāsya na kaśhchit kartum arhati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="18"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -909,9 +1116,20 @@ anāśhino ’prameyasya tasmād yudhyasva bhārata
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('18_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="18_audio" src="/recitation/2_18.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_18"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_18"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_18"
+                                src="/recitation/2_18.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:18</h4>
@@ -925,6 +1143,7 @@ anāśhino ’prameyasya tasmād yudhyasva bhārata
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="19"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -957,9 +1176,20 @@ ubhau tau na vijānīto nāyaṁ hanti na hanyate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('19_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="19_audio" src="/recitation/2_19.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_19"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_19"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_19"
+                                src="/recitation/2_19.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:19</h4>
@@ -973,6 +1203,7 @@ ubhau tau na vijānīto nāyaṁ hanti na hanyate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="20"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1007,9 +1238,20 @@ na hanyate hanyamāne śharīre
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('20_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="20_audio" src="/recitation/2_20.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_20"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_20"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_20"
+                                src="/recitation/2_20.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:20</h4>
@@ -1023,6 +1265,7 @@ na hanyate hanyamāne śharīre
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="21"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1055,9 +1298,20 @@ kathaṁ sa puruṣhaḥ pārtha kaṁ ghātayati hanti kam
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('21_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="21_audio" src="/recitation/2_21.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_21"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_21"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_21"
+                                src="/recitation/2_21.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:21</h4>
@@ -1071,6 +1325,7 @@ kathaṁ sa puruṣhaḥ pārtha kaṁ ghātayati hanti kam
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="22"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1105,9 +1360,20 @@ nyāni sanyāti navāni dehī
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('22_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="22_audio" src="/recitation/2_22.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_22"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_22"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_22"
+                                src="/recitation/2_22.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:22</h4>
@@ -1121,6 +1387,7 @@ nyāni sanyāti navāni dehī
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="23"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1153,9 +1420,20 @@ na chainaṁ kledayantyāpo na śhoṣhayati mārutaḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('23_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="23_audio" src="/recitation/2_23.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_23"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_23"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_23"
+                                src="/recitation/2_23.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:23</h4>
@@ -1169,6 +1447,7 @@ na chainaṁ kledayantyāpo na śhoṣhayati mārutaḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="24"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1201,9 +1480,20 @@ nityaḥ sarva-gataḥ sthāṇur achalo ’yaṁ sanātanaḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('24_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="24_audio" src="/recitation/2_24.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_24"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_24"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_24"
+                                src="/recitation/2_24.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:24</h4>
@@ -1217,6 +1507,7 @@ nityaḥ sarva-gataḥ sthāṇur achalo ’yaṁ sanātanaḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="25"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1249,9 +1540,20 @@ tasmādevaṁ viditvainaṁ nānuśhochitum arhasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('25_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="25_audio" src="/recitation/2_25.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_25"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_25"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_25"
+                                src="/recitation/2_25.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:25</h4>
@@ -1265,6 +1567,7 @@ tasmādevaṁ viditvainaṁ nānuśhochitum arhasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="26"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1297,9 +1600,20 @@ tathāpi tvaṁ mahā-bāho naivaṁ śhochitum arhasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('26_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="26_audio" src="/recitation/2_26.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_26"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_26"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_26"
+                                src="/recitation/2_26.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:26</h4>
@@ -1313,6 +1627,7 @@ tathāpi tvaṁ mahā-bāho naivaṁ śhochitum arhasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="27"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1345,9 +1660,20 @@ tasmād aparihārye ’rthe na tvaṁ śhochitum arhasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('27_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="27_audio" src="/recitation/2_27.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_27"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_27"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_27"
+                                src="/recitation/2_27.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:27</h4>
@@ -1361,6 +1687,7 @@ tasmād aparihārye ’rthe na tvaṁ śhochitum arhasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="28"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1393,9 +1720,20 @@ avyakta-nidhanānyeva tatra kā paridevanā
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('28_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="28_audio" src="/recitation/2_28.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_28"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_28"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_28"
+                                src="/recitation/2_28.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:28</h4>
@@ -1409,6 +1747,7 @@ avyakta-nidhanānyeva tatra kā paridevanā
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="29"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1443,9 +1782,20 @@ avyakta-nidhanānyeva tatra kā paridevanā
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('29_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="29_audio" src="/recitation/2_29.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_29"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_29"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_29"
+                                src="/recitation/2_29.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:29</h4>
@@ -1459,6 +1809,7 @@ avyakta-nidhanānyeva tatra kā paridevanā
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="30"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1491,9 +1842,20 @@ tasmāt sarvāṇi bhūtāni na tvaṁ śhochitum arhasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('30_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="30_audio" src="/recitation/2_30.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_30"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_30"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_30"
+                                src="/recitation/2_30.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:30</h4>
@@ -1507,6 +1869,7 @@ tasmāt sarvāṇi bhūtāni na tvaṁ śhochitum arhasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="31"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1539,9 +1902,20 @@ dharmyāddhi yuddhāch chhreyo ’nyat kṣhatriyasya na vidyate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('31_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="31_audio" src="/recitation/2_31.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_31"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_31"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_31"
+                                src="/recitation/2_31.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:31</h4>
@@ -1555,6 +1929,7 @@ dharmyāddhi yuddhāch chhreyo ’nyat kṣhatriyasya na vidyate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="32"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1587,9 +1962,20 @@ sukhinaḥ kṣhatriyāḥ pārtha labhante yuddham īdṛiśham
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('32_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="32_audio" src="/recitation/2_32.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_32"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_32"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_32"
+                                src="/recitation/2_32.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:32</h4>
@@ -1603,6 +1989,7 @@ sukhinaḥ kṣhatriyāḥ pārtha labhante yuddham īdṛiśham
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="33"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1635,9 +2022,20 @@ tataḥ sva-dharmaṁ kīrtiṁ cha hitvā pāpam avāpsyasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('33_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="33_audio" src="/recitation/2_33.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_33"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_33"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_33"
+                                src="/recitation/2_33.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:33</h4>
@@ -1651,6 +2049,7 @@ tataḥ sva-dharmaṁ kīrtiṁ cha hitvā pāpam avāpsyasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="34"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1685,9 +2084,20 @@ maraṇād atirichyate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('34_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="34_audio" src="/recitation/2_34.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_34"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_34"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_34"
+                                src="/recitation/2_34.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:34</h4>
@@ -1701,6 +2111,7 @@ maraṇād atirichyate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="35"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1733,9 +2144,20 @@ yeṣhāṁ cha tvaṁ bahu-mato bhūtvā yāsyasi lāghavam
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('35_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="35_audio" src="/recitation/2_35.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_35"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_35"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_35"
+                                src="/recitation/2_35.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:35</h4>
@@ -1749,6 +2171,7 @@ yeṣhāṁ cha tvaṁ bahu-mato bhūtvā yāsyasi lāghavam
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="36"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1781,9 +2204,20 @@ nindantastava sāmarthyaṁ tato duḥkhataraṁ nu kim
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('36_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="36_audio" src="/recitation/2_36.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_36"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_36"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_36"
+                                src="/recitation/2_36.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:36</h4>
@@ -1797,6 +2231,7 @@ nindantastava sāmarthyaṁ tato duḥkhataraṁ nu kim
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="37"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1829,9 +2264,20 @@ tasmād uttiṣhṭha kaunteya yuddhāya kṛita-niśhchayaḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('37_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="37_audio" src="/recitation/2_37.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_37"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_37"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_37"
+                                src="/recitation/2_37.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:37</h4>
@@ -1845,6 +2291,7 @@ tasmād uttiṣhṭha kaunteya yuddhāya kṛita-niśhchayaḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="38"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1877,9 +2324,20 @@ tato yuddhāya yujyasva naivaṁ pāpam avāpsyasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('38_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="38_audio" src="/recitation/2_38.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_38"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_38"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_38"
+                                src="/recitation/2_38.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:38</h4>
@@ -1893,6 +2351,7 @@ tato yuddhāya yujyasva naivaṁ pāpam avāpsyasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="39"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1927,9 +2386,20 @@ karma-bandhaṁ prahāsyasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('39_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="39_audio" src="/recitation/2_39.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_39"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_39"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_39"
+                                src="/recitation/2_39.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:39</h4>
@@ -1943,6 +2413,7 @@ karma-bandhaṁ prahāsyasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="40"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -1975,9 +2446,20 @@ svalpam apyasya dharmasya trāyate mahato bhayāt
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('40_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="40_audio" src="/recitation/2_40.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_40"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_40"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_40"
+                                src="/recitation/2_40.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:40</h4>
@@ -1991,6 +2473,7 @@ svalpam apyasya dharmasya trāyate mahato bhayāt
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="41"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2023,9 +2506,20 @@ bahu-śhākhā hyanantāśh cha buddhayo ’vyavasāyinām
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('41_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="41_audio" src="/recitation/2_41.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_41"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_41"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_41"
+                                src="/recitation/2_41.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:41</h4>
@@ -2039,6 +2533,7 @@ bahu-śhākhā hyanantāśh cha buddhayo ’vyavasāyinām
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="42"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2074,9 +2569,20 @@ kriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('42_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="42_audio" src="/recitation/2_42.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_42"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_42"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_42"
+                                src="/recitation/2_42.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:42</h4>
@@ -2090,6 +2596,7 @@ kriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="43"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2121,9 +2628,20 @@ kriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('43_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="43_audio" src="/recitation/2_43.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_43"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_43"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_43"
+                                src="/recitation/2_43.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:43</h4>
@@ -2137,6 +2655,7 @@ kriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="44"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2169,9 +2688,20 @@ vyavasāyātmikā buddhiḥ samādhau na vidhīyate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('44_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="44_audio" src="/recitation/2_44.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_44"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_44"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_44"
+                                src="/recitation/2_44.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:44</h4>
@@ -2185,6 +2715,7 @@ vyavasāyātmikā buddhiḥ samādhau na vidhīyate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="45"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2217,9 +2748,20 @@ nirdvandvo nitya-sattva-stho niryoga-kṣhema ātmavān
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('45_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="45_audio" src="/recitation/2_45.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_45"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_45"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_45"
+                                src="/recitation/2_45.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:45</h4>
@@ -2233,6 +2775,7 @@ nirdvandvo nitya-sattva-stho niryoga-kṣhema ātmavān
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="46"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2265,9 +2808,20 @@ tāvānsarveṣhu vedeṣhu brāhmaṇasya vijānataḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('46_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="46_audio" src="/recitation/2_46.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_46"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_46"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_46"
+                                src="/recitation/2_46.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:46</h4>
@@ -2281,6 +2835,7 @@ tāvānsarveṣhu vedeṣhu brāhmaṇasya vijānataḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="47"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2313,9 +2868,20 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('47_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="47_audio" src="/recitation/2_47.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_47"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_47"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_47"
+                                src="/recitation/2_47.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:47</h4>
@@ -2329,6 +2895,7 @@ mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="48"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2361,9 +2928,20 @@ siddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga uchyate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('48_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="48_audio" src="/recitation/2_48.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_48"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_48"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_48"
+                                src="/recitation/2_48.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:48</h4>
@@ -2377,6 +2955,7 @@ siddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga uchyate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="49"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2409,9 +2988,20 @@ buddhau śharaṇam anvichchha kṛipaṇāḥ phala-hetavaḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('49_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="49_audio" src="/recitation/2_49.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_49"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_49"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_49"
+                                src="/recitation/2_49.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:49</h4>
@@ -2425,6 +3015,7 @@ buddhau śharaṇam anvichchha kṛipaṇāḥ phala-hetavaḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="50"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2457,9 +3048,20 @@ tasmād yogāya yujyasva yogaḥ karmasu kauśhalam
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('50_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="50_audio" src="/recitation/2_50.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_50"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_50"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_50"
+                                src="/recitation/2_50.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:50</h4>
@@ -2473,6 +3075,7 @@ tasmād yogāya yujyasva yogaḥ karmasu kauśhalam
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="51"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2505,9 +3108,20 @@ janma-bandha-vinirmuktāḥ padaṁ gachchhanty-anāmayam
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('51_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="51_audio" src="/recitation/2_51.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_51"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_51"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_51"
+                                src="/recitation/2_51.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:51</h4>
@@ -2521,6 +3135,7 @@ janma-bandha-vinirmuktāḥ padaṁ gachchhanty-anāmayam
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="52"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2553,9 +3168,20 @@ tadā gantāsi nirvedaṁ śhrotavyasya śhrutasya cha
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('52_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="52_audio" src="/recitation/2_52.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_52"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_52"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_52"
+                                src="/recitation/2_52.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:52</h4>
@@ -2569,6 +3195,7 @@ tadā gantāsi nirvedaṁ śhrotavyasya śhrutasya cha
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="53"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2601,9 +3228,20 @@ samādhāv-achalā buddhis tadā yogam avāpsyasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('53_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="53_audio" src="/recitation/2_53.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_53"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_53"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_53"
+                                src="/recitation/2_53.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:53</h4>
@@ -2617,6 +3255,7 @@ samādhāv-achalā buddhis tadā yogam avāpsyasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="54"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2650,9 +3289,20 @@ sthita-dhīḥ kiṁ prabhāṣheta kim āsīta vrajeta kim
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('54_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="54_audio" src="/recitation/2_54.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_54"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_54"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_54"
+                                src="/recitation/2_54.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:54</h4>
@@ -2666,6 +3316,7 @@ sthita-dhīḥ kiṁ prabhāṣheta kim āsīta vrajeta kim
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="55"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2699,9 +3350,20 @@ prajahāti yadā kāmān sarvān pārtha mano-gatān
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('55_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="55_audio" src="/recitation/2_55.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_55"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_55"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_55"
+                                src="/recitation/2_55.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:55</h4>
@@ -2715,6 +3377,7 @@ prajahāti yadā kāmān sarvān pārtha mano-gatān
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="56"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2747,9 +3410,20 @@ vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir uchyate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('56_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="56_audio" src="/recitation/2_56.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_56"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_56"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_56"
+                                src="/recitation/2_56.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:56</h4>
@@ -2763,6 +3437,7 @@ vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir uchyate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="57"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2795,9 +3470,20 @@ nābhinandati na dveṣhṭi tasya prajñā pratiṣhṭhitā
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('57_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="57_audio" src="/recitation/2_57.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_57"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_57"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_57"
+                                src="/recitation/2_57.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:57</h4>
@@ -2811,6 +3497,7 @@ nābhinandati na dveṣhṭi tasya prajñā pratiṣhṭhitā
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="58"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2843,9 +3530,20 @@ indriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('58_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="58_audio" src="/recitation/2_58.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_58"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_58"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_58"
+                                src="/recitation/2_58.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:58</h4>
@@ -2859,6 +3557,7 @@ indriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="59"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2891,9 +3590,20 @@ rasa-varjaṁ raso ’pyasya paraṁ dṛiṣhṭvā nivartate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('59_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="59_audio" src="/recitation/2_59.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_59"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_59"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_59"
+                                src="/recitation/2_59.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:59</h4>
@@ -2907,6 +3617,7 @@ rasa-varjaṁ raso ’pyasya paraṁ dṛiṣhṭvā nivartate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="60"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2939,9 +3650,20 @@ indriyāṇi pramāthīni haranti prasabhaṁ manaḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('60_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="60_audio" src="/recitation/2_60.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_60"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_60"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_60"
+                                src="/recitation/2_60.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:60</h4>
@@ -2955,6 +3677,7 @@ indriyāṇi pramāthīni haranti prasabhaṁ manaḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="61"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -2987,9 +3710,20 @@ vaśhe hi yasyendriyāṇi tasya prajñā pratiṣhṭhitā
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('61_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="61_audio" src="/recitation/2_61.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_61"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_61"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_61"
+                                src="/recitation/2_61.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:61</h4>
@@ -3003,6 +3737,7 @@ vaśhe hi yasyendriyāṇi tasya prajñā pratiṣhṭhitā
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="62"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3035,9 +3770,20 @@ saṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('62_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="62_audio" src="/recitation/2_62.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_62"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_62"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_62"
+                                src="/recitation/2_62.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:62</h4>
@@ -3051,6 +3797,7 @@ saṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="63"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3083,9 +3830,20 @@ smṛiti-bhranśhād buddhi-nāśho buddhi-nāśhāt praṇaśhyati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('63_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="63_audio" src="/recitation/2_63.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_63"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_63"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_63"
+                                src="/recitation/2_63.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:63</h4>
@@ -3099,6 +3857,7 @@ smṛiti-bhranśhād buddhi-nāśho buddhi-nāśhāt praṇaśhyati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="64"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3131,9 +3890,20 @@ smṛiti-bhranśhād buddhi-nāśho buddhi-nāśhāt praṇaśhyati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('64_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="64_audio" src="/recitation/2_64.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_64"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_64"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_64"
+                                src="/recitation/2_64.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:64</h4>
@@ -3147,6 +3917,7 @@ smṛiti-bhranśhād buddhi-nāśho buddhi-nāśhāt praṇaśhyati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="65"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3179,9 +3950,20 @@ prasanna-chetaso hyāśhu buddhiḥ paryavatiṣhṭhate
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('65_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="65_audio" src="/recitation/2_65.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_65"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_65"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_65"
+                                src="/recitation/2_65.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:65</h4>
@@ -3195,6 +3977,7 @@ prasanna-chetaso hyāśhu buddhiḥ paryavatiṣhṭhate
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="66"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3227,9 +4010,20 @@ na chābhāvayataḥ śhāntir aśhāntasya kutaḥ sukham
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('66_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="66_audio" src="/recitation/2_66.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_66"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_66"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_66"
+                                src="/recitation/2_66.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:66</h4>
@@ -3243,6 +4037,7 @@ na chābhāvayataḥ śhāntir aśhāntasya kutaḥ sukham
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="67"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3275,9 +4070,20 @@ tadasya harati prajñāṁ vāyur nāvam ivāmbhasi
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('67_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="67_audio" src="/recitation/2_67.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_67"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_67"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_67"
+                                src="/recitation/2_67.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:67</h4>
@@ -3291,6 +4097,7 @@ tadasya harati prajñāṁ vāyur nāvam ivāmbhasi
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="68"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3323,9 +4130,20 @@ indriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('68_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="68_audio" src="/recitation/2_68.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_68"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_68"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_68"
+                                src="/recitation/2_68.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:68</h4>
@@ -3339,6 +4157,7 @@ indriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="69"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3371,9 +4190,20 @@ yasyāṁ jāgrati bhūtāni sā niśhā paśhyato muneḥ
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('69_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="69_audio" src="/recitation/2_69.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_69"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_69"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_69"
+                                src="/recitation/2_69.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:69</h4>
@@ -3387,6 +4217,7 @@ yasyāṁ jāgrati bhūtāni sā niśhā paśhyato muneḥ
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="70"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3421,9 +4252,20 @@ sa śhāntim āpnoti na kāma-kāmī
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('70_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="70_audio" src="/recitation/2_70.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_70"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_70"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_70"
+                                src="/recitation/2_70.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:70</h4>
@@ -3437,6 +4279,7 @@ sa śhāntim āpnoti na kāma-kāmī
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="71"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3469,9 +4312,20 @@ nirmamo nirahankāraḥ sa śhāntim adhigachchhati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('71_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="71_audio" src="/recitation/2_71.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_71"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_71"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_71"
+                                src="/recitation/2_71.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:71</h4>
@@ -3485,6 +4339,7 @@ nirmamo nirahankāraḥ sa śhāntim adhigachchhati
             </div>
         </div>
         
+        <!-- VERSE CARD -->
         <div class="py-3" id="72"></div>
         <div class="card shadow-lg my-3">
             <div class="card-body">
@@ -3517,9 +4372,20 @@ sthitvāsyām anta-kāle ’pi brahma-nirvāṇam ṛichchhati
             <div class="card-footer">
                 <div class="row">
                     <div class="col-2">
-                        <button class="btn btn-verse-menu btn-secondary" style="float:left;" onClick="PlayAudio('72_audio')"><span
-                                class="fa fa-volume-up"></span></button>
-                        <audio id="72_audio" src="/recitation/2_72.mp3"></audio>
+                        <!-- MEDIA PLAYER PART -->
+                        <div class="media-player">
+                            <button class="btn btn-verse-menu btn-play-audio btn-secondary" style="float:left;"
+                                data-audio-pointer="recitation_72"><span
+                                    class="fa fa-volume-up"></span>
+                            </button>
+
+                            <button class="btn btn-verse-menu btn-stop-audio btn-secondary mx-1" style="float:left;"
+                                data-audio-pointer="recitation_72"><span
+                                    class="fa fa-stop"></span></button>
+
+                            <audio id="recitation_72"
+                                src="/recitation/2_72.mp3"></audio>
+                        </div>
                     </div>
                     <div class="col-8">
                         <h4>2:72</h4>
@@ -3535,6 +4401,7 @@ sthitvāsyām anta-kāle ’pi brahma-nirvāṇam ṛichchhati
         
     </div>
 
+    <!-- SHARE VERSE MODAL -->
     <div class="modal fade" tabindex="-1" id="copy-verse-modal">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
