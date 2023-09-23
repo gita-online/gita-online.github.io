@@ -73,10 +73,14 @@ asanśhayaṁ samagraṁ māṁ yathā jñāsyasi tach chhṛiṇu
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse1_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse1_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse1_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse1_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse1_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse1_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse1_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse1_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -86,16 +90,16 @@ asanśhayaṁ samagraṁ māṁ yathā jñāsyasi tach chhṛiṇu
                         </div>
                     </div>
 
-                    <div id="verse1_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे पार्थ ! मुझमें असक्त हुए मन वाले तथा मदाश्रित होकर योग का अभ्यास करते हुए जिस प्रकार तुम मुझे समग्ररूप से, बिना किसी संशय के, जानोगे वह सुनो
-                        </div>
-                    </div>
-                    
                     <div id="verse1_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Der Erhabene sagte: höre nun, o Pârtha (Arjuna), wie du mich ganz und ohne Zweifel erkennen wirst, indem du Yoga übst, deinen Geist an mich hängst, lich zur Zuflucht nimmst. (07.01)
 
+                        </div>
+                    </div>
+
+                    <div id="verse1_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे पार्थ ! मुझमें असक्त हुए मन वाले तथा मदाश्रित होकर योग का अभ्यास करते हुए जिस प्रकार तुम मुझे समग्ररूप से, बिना किसी संशय के, जानोगे वह सुनो
                         </div>
                     </div>
 
@@ -105,7 +109,7 @@ asanśhayaṁ samagraṁ māṁ yathā jñāsyasi tach chhṛiṇu
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -131,7 +135,8 @@ asanśhayaṁ samagraṁ māṁ yathā jñāsyasi tach chhṛiṇu
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_1"
-                                src="/recitation/7_1.mp3"></audio>
+                                src="/recitation/7_1.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -141,6 +146,9 @@ asanśhayaṁ samagraṁ māṁ yathā jñāsyasi tach chhṛiṇu
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 1)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 1)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -168,10 +176,14 @@ yaj jñātvā neha bhūyo ’nyaj jñātavyam-avaśhiṣhyate
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse2_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse2_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse2_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse2_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse2_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse2_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse2_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse2_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -181,16 +193,16 @@ yaj jñātvā neha bhūyo ’nyaj jñātavyam-avaśhiṣhyate
                         </div>
                     </div>
 
-                    <div id="verse2_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             मैं तुम्हारे लिए विज्ञान सहित इस ज्ञान को अशेष रूप से कहूँगा जिसको जानकर यहाँ (जगत् में) फिर और कुछ जानने योग्य (ज्ञातव्य) शेष नहीं रह जाता है
-                        </div>
-                    </div>
-                    
                     <div id="verse2_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Ich will dir diese Weisheit vollständig mitteilen zusammen mit dem Wissen, nach dessen Erkenntnis hier nichts mehr zu erkennen übrig bleibt. (07.02)
 
+                        </div>
+                    </div>
+
+                    <div id="verse2_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             मैं तुम्हारे लिए विज्ञान सहित इस ज्ञान को अशेष रूप से कहूँगा जिसको जानकर यहाँ (जगत् में) फिर और कुछ जानने योग्य (ज्ञातव्य) शेष नहीं रह जाता है
                         </div>
                     </div>
 
@@ -200,7 +212,7 @@ yaj jñātvā neha bhūyo ’nyaj jñātavyam-avaśhiṣhyate
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -226,7 +238,8 @@ yaj jñātvā neha bhūyo ’nyaj jñātavyam-avaśhiṣhyate
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_2"
-                                src="/recitation/7_2.mp3"></audio>
+                                src="/recitation/7_2.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -236,6 +249,9 @@ yaj jñātvā neha bhūyo ’nyaj jñātavyam-avaśhiṣhyate
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 2)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 2)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -263,10 +279,14 @@ yatatām api siddhānāṁ kaśhchin māṁ vetti tattvataḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse3_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse3_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse3_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse3_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse3_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse3_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse3_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse3_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -276,16 +296,16 @@ yatatām api siddhānāṁ kaśhchin māṁ vetti tattvataḥ
                         </div>
                     </div>
 
-                    <div id="verse3_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             सहस्रों मनुष्यों में कोई ही मनुष्य पूर्णत्व की सिद्धि के लिए प्रयत्न करता है और उन प्रयत्नशील साधकों में भी कोई ही पुरुष मुझे तत्त्व से जानता है
-                        </div>
-                    </div>
-                    
                     <div id="verse3_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Unter tausend Menschen strebt kaum einer nach Vollendung, und von denen, die darnach streben und Erfolg haben, kennt mich kaum einer wirklich. (07.03)
 
+                        </div>
+                    </div>
+
+                    <div id="verse3_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             सहस्रों मनुष्यों में कोई ही मनुष्य पूर्णत्व की सिद्धि के लिए प्रयत्न करता है और उन प्रयत्नशील साधकों में भी कोई ही पुरुष मुझे तत्त्व से जानता है
                         </div>
                     </div>
 
@@ -295,7 +315,7 @@ yatatām api siddhānāṁ kaśhchin māṁ vetti tattvataḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -321,7 +341,8 @@ yatatām api siddhānāṁ kaśhchin māṁ vetti tattvataḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_3"
-                                src="/recitation/7_3.mp3"></audio>
+                                src="/recitation/7_3.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -331,6 +352,9 @@ yatatām api siddhānāṁ kaśhchin māṁ vetti tattvataḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 3)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 3)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -358,10 +382,14 @@ ahankāra itīyaṁ me bhinnā prakṛitir aṣhṭadhā
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse4_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse4_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse4_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse4_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse4_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse4_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse4_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse4_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -371,16 +399,16 @@ ahankāra itīyaṁ me bhinnā prakṛitir aṣhṭadhā
                         </div>
                     </div>
 
-                    <div id="verse4_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             पृथ्वी, जल, अग्नि, वायु और आकाश तथा मन, बुद्धि और अहंकार — यह आठ प्रकार से विभक्त हुई मेरी प्रकृति है
-                        </div>
-                    </div>
-                    
                     <div id="verse4_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Erde, Wasser, Feuer, Luft, Äther, Geist, Verstand und Selbst-Sinn: dies ist meine achtfach geteilte Natur. (Siehe 13.05) (07.04)
 
+                        </div>
+                    </div>
+
+                    <div id="verse4_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             पृथ्वी, जल, अग्नि, वायु और आकाश तथा मन, बुद्धि और अहंकार — यह आठ प्रकार से विभक्त हुई मेरी प्रकृति है
                         </div>
                     </div>
 
@@ -390,7 +418,7 @@ ahankāra itīyaṁ me bhinnā prakṛitir aṣhṭadhā
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -416,7 +444,8 @@ ahankāra itīyaṁ me bhinnā prakṛitir aṣhṭadhā
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_4"
-                                src="/recitation/7_4.mp3"></audio>
+                                src="/recitation/7_4.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -426,6 +455,9 @@ ahankāra itīyaṁ me bhinnā prakṛitir aṣhṭadhā
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 4)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 4)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -453,10 +485,14 @@ jīva-bhūtāṁ mahā-bāho yayedaṁ dhāryate jagat
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse5_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse5_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse5_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse5_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse5_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse5_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse5_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse5_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -466,16 +502,16 @@ jīva-bhūtāṁ mahā-bāho yayedaṁ dhāryate jagat
                         </div>
                     </div>
 
-                    <div id="verse5_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे महाबाहो ! यह अपरा प्रकृति है। इससे भिन्न मेरी जीवरूपी पराप्रकृति को जानो, जिससे यह जगत् धारण किया जाता है
-                        </div>
-                    </div>
-                    
                     <div id="verse5_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Dies ist meine niedere Natur. Kenne, o Starkarmiger (Arjuna), auch meine andere und höhere Natur, die Seele, durch welche diese Welt getragen wird. (07.05)
 
+                        </div>
+                    </div>
+
+                    <div id="verse5_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे महाबाहो ! यह अपरा प्रकृति है। इससे भिन्न मेरी जीवरूपी पराप्रकृति को जानो, जिससे यह जगत् धारण किया जाता है
                         </div>
                     </div>
 
@@ -485,7 +521,7 @@ jīva-bhūtāṁ mahā-bāho yayedaṁ dhāryate jagat
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -511,7 +547,8 @@ jīva-bhūtāṁ mahā-bāho yayedaṁ dhāryate jagat
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_5"
-                                src="/recitation/7_5.mp3"></audio>
+                                src="/recitation/7_5.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -521,6 +558,9 @@ jīva-bhūtāṁ mahā-bāho yayedaṁ dhāryate jagat
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 5)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 5)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -548,10 +588,14 @@ ahaṁ kṛitsnasya jagataḥ prabhavaḥ pralayas tathā
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse6_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse6_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse6_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse6_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse6_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse6_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse6_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse6_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -561,16 +605,16 @@ ahaṁ kṛitsnasya jagataḥ prabhavaḥ pralayas tathā
                         </div>
                     </div>
 
-                    <div id="verse6_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             यह जानो कि समम्पूर्ण भूत इन दोनों प्रकृतियों से उत्पत्ति वाले हैं। (अत:) मैं सम्पूर्ण जगत् का उत्पत्ति तथा प्रलय स्थान हूँ
-                        </div>
-                    </div>
-                    
                     <div id="verse6_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Wisse, daß alle Wesen darin geboren werden. Ich bin der Ursprung dieser ganzen Welt und bin ihre Auflösung. (Siehe 13.26) (07.06)
 
+                        </div>
+                    </div>
+
+                    <div id="verse6_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             यह जानो कि समम्पूर्ण भूत इन दोनों प्रकृतियों से उत्पत्ति वाले हैं। (अत:) मैं सम्पूर्ण जगत् का उत्पत्ति तथा प्रलय स्थान हूँ
                         </div>
                     </div>
 
@@ -580,7 +624,7 @@ ahaṁ kṛitsnasya jagataḥ prabhavaḥ pralayas tathā
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -606,7 +650,8 @@ ahaṁ kṛitsnasya jagataḥ prabhavaḥ pralayas tathā
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_6"
-                                src="/recitation/7_6.mp3"></audio>
+                                src="/recitation/7_6.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -616,6 +661,9 @@ ahaṁ kṛitsnasya jagataḥ prabhavaḥ pralayas tathā
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 6)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 6)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -643,10 +691,14 @@ mayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse7_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse7_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse7_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse7_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse7_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse7_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse7_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse7_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -656,16 +708,16 @@ mayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva
                         </div>
                     </div>
 
-                    <div id="verse7_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे धनंजय ! मुझसे श्रेष्ठ (परे) अन्य किचिन्मात्र वस्तु नहीं है। यह सम्पूर्ण जगत् सूत्र में मणियों के सदृश मुझमें पिरोया हुआ है
-                        </div>
-                    </div>
-                    
                     <div id="verse7_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Nichts gibt es jemals, o Schätzegewinner (Arjuna), das höher wäre als ich. Wie Edelsteinreihen auf einer Schnur ist alles hienieden auf mich aufgereiht. (07.07)
 
+                        </div>
+                    </div>
+
+                    <div id="verse7_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे धनंजय ! मुझसे श्रेष्ठ (परे) अन्य किचिन्मात्र वस्तु नहीं है। यह सम्पूर्ण जगत् सूत्र में मणियों के सदृश मुझमें पिरोया हुआ है
                         </div>
                     </div>
 
@@ -675,7 +727,7 @@ mayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -701,7 +753,8 @@ mayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_7"
-                                src="/recitation/7_7.mp3"></audio>
+                                src="/recitation/7_7.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -711,6 +764,9 @@ mayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 7)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 7)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -738,10 +794,14 @@ praṇavaḥ sarva-vedeṣhu śhabdaḥ khe pauruṣhaṁ nṛiṣhu
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse8_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse8_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse8_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse8_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse8_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse8_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse8_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse8_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -751,16 +811,16 @@ praṇavaḥ sarva-vedeṣhu śhabdaḥ khe pauruṣhaṁ nṛiṣhu
                         </div>
                     </div>
 
-                    <div id="verse8_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे कौन्तेय ! जल में मैं रस हूँ, चन्द्रमा और सूर्य में प्रकाश हूँ, सब वेदों में प्रणव (ँ़कार) हूँ तथा आकाश में शब्द और पुरुषों में पुरुषत्व हूँ
-                        </div>
-                    </div>
-                    
                     <div id="verse8_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Ich bin der Geschmack in den Wassern, o Sohn der Kunti (Arjuna), ich bin das Licht in Mond und Sonne. Ich bin die Silbe Om in allen Veden; ich bin der Ton im Äther und bin das Mannestum im Manne. (07.08)
 
+                        </div>
+                    </div>
+
+                    <div id="verse8_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे कौन्तेय ! जल में मैं रस हूँ, चन्द्रमा और सूर्य में प्रकाश हूँ, सब वेदों में प्रणव (ँ़कार) हूँ तथा आकाश में शब्द और पुरुषों में पुरुषत्व हूँ
                         </div>
                     </div>
 
@@ -770,7 +830,7 @@ praṇavaḥ sarva-vedeṣhu śhabdaḥ khe pauruṣhaṁ nṛiṣhu
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -796,7 +856,8 @@ praṇavaḥ sarva-vedeṣhu śhabdaḥ khe pauruṣhaṁ nṛiṣhu
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_8"
-                                src="/recitation/7_8.mp3"></audio>
+                                src="/recitation/7_8.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -806,6 +867,9 @@ praṇavaḥ sarva-vedeṣhu śhabdaḥ khe pauruṣhaṁ nṛiṣhu
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 8)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 8)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -833,10 +897,14 @@ jīvanaṁ sarva-bhūteṣhu tapaśh chāsmi tapasviṣhu
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse9_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse9_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse9_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse9_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse9_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse9_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse9_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse9_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -846,16 +914,16 @@ jīvanaṁ sarva-bhūteṣhu tapaśh chāsmi tapasviṣhu
                         </div>
                     </div>
 
-                    <div id="verse9_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             पृथ्वी में पवित्र गन्ध हूँ और अग्नि में तेज हूँ; सम्पूर्ण भूतों में जीवन हूँ और तपस्वियों में मैं तप हूँ
-                        </div>
-                    </div>
-                    
                     <div id="verse9_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Ich bin der reine Geruch der Erde und der Schein im Feuer. Ich bin das Leben in allen Wesen und bin die Askese in den Asketen. (07.09)
 
+                        </div>
+                    </div>
+
+                    <div id="verse9_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             पृथ्वी में पवित्र गन्ध हूँ और अग्नि में तेज हूँ; सम्पूर्ण भूतों में जीवन हूँ और तपस्वियों में मैं तप हूँ
                         </div>
                     </div>
 
@@ -865,7 +933,7 @@ jīvanaṁ sarva-bhūteṣhu tapaśh chāsmi tapasviṣhu
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -891,7 +959,8 @@ jīvanaṁ sarva-bhūteṣhu tapaśh chāsmi tapasviṣhu
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_9"
-                                src="/recitation/7_9.mp3"></audio>
+                                src="/recitation/7_9.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -901,6 +970,9 @@ jīvanaṁ sarva-bhūteṣhu tapaśh chāsmi tapasviṣhu
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 9)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 9)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -928,10 +1000,14 @@ buddhir buddhimatām asmi tejas tejasvinām aham
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse10_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse10_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse10_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse10_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse10_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse10_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse10_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse10_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -941,16 +1017,16 @@ buddhir buddhimatām asmi tejas tejasvinām aham
                         </div>
                     </div>
 
-                    <div id="verse10_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे पार्थ ! सम्पूर्ण भूतों का सनातन बीज (कारण) मुझे ही जानो; मैं बुद्धिमानों की बुद्धि और तेजस्वियों का तेज हूँ
-                        </div>
-                    </div>
-                    
                     <div id="verse10_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Wisse, o Pârtha (Arjuna), daß ich der ewige Same aller Wesen bin. Ich bin der Verstand der Verständigen, ich bin der Glanz der Glanzreichen. (Siehe 9.18 und 10.39). (07.10)
 
+                        </div>
+                    </div>
+
+                    <div id="verse10_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे पार्थ ! सम्पूर्ण भूतों का सनातन बीज (कारण) मुझे ही जानो; मैं बुद्धिमानों की बुद्धि और तेजस्वियों का तेज हूँ
                         </div>
                     </div>
 
@@ -960,7 +1036,7 @@ buddhir buddhimatām asmi tejas tejasvinām aham
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -986,7 +1062,8 @@ buddhir buddhimatām asmi tejas tejasvinām aham
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_10"
-                                src="/recitation/7_10.mp3"></audio>
+                                src="/recitation/7_10.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -996,6 +1073,9 @@ buddhir buddhimatām asmi tejas tejasvinām aham
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 10)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 10)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1023,10 +1103,14 @@ dharmāviruddho bhūteṣhu kāmo ’smi bharatarṣhabha
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse11_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse11_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse11_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse11_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse11_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse11_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse11_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse11_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1036,16 +1120,16 @@ dharmāviruddho bhūteṣhu kāmo ’smi bharatarṣhabha
                         </div>
                     </div>
 
-                    <div id="verse11_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे भरत श्रेष्ठ ! मैं बलवानों का कामना तथा आसक्ति से रहित बल हूँ और सब भूतों में धर्म के अविरुद्ध अर्थात् अनुकूल काम हूँ
-                        </div>
-                    </div>
-                    
                     <div id="verse11_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Ich bin die Stärke der Starken, ohne Begierde und Leidenschaft. Ich bin, o Herr der Bharatas (Arjuna), in den Wesen die Begierde, welche mit dem Gesetze nicht im Widerspruch steht. (07.11)
 
+                        </div>
+                    </div>
+
+                    <div id="verse11_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे भरत श्रेष्ठ ! मैं बलवानों का कामना तथा आसक्ति से रहित बल हूँ और सब भूतों में धर्म के अविरुद्ध अर्थात् अनुकूल काम हूँ
                         </div>
                     </div>
 
@@ -1055,7 +1139,7 @@ dharmāviruddho bhūteṣhu kāmo ’smi bharatarṣhabha
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1081,7 +1165,8 @@ dharmāviruddho bhūteṣhu kāmo ’smi bharatarṣhabha
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_11"
-                                src="/recitation/7_11.mp3"></audio>
+                                src="/recitation/7_11.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1091,6 +1176,9 @@ dharmāviruddho bhūteṣhu kāmo ’smi bharatarṣhabha
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 11)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 11)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1118,10 +1206,14 @@ matta eveti tān viddhi na tvahaṁ teṣhu te mayi
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse12_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse12_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse12_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse12_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse12_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse12_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse12_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse12_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1131,16 +1223,16 @@ matta eveti tān viddhi na tvahaṁ teṣhu te mayi
                         </div>
                     </div>
 
-                    <div id="verse12_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             जो भी सात्त्विक (शुद्ध), राजसिक (क्रियाशील) और तामसिक (जड़) भाव हैं, उन सबको तुम मेरे से उत्पन्न हुए जानो; तथापि मैं उनमें नहीं हूँ, वे मुझमें हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse12_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Und was es auch immer für Zustände geben mag, seien sie ausgeglichen (sâttvika), leidenschaftlich (râjasa) oder trâge (tâmasa), wisse, daß sie alle nur von mir herrühen. Ich bin nicht in ihnen, sie sind in mir. (Siehe 9.04 und 9.05) (07.12)
 
+                        </div>
+                    </div>
+
+                    <div id="verse12_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             जो भी सात्त्विक (शुद्ध), राजसिक (क्रियाशील) और तामसिक (जड़) भाव हैं, उन सबको तुम मेरे से उत्पन्न हुए जानो; तथापि मैं उनमें नहीं हूँ, वे मुझमें हैं
                         </div>
                     </div>
 
@@ -1150,7 +1242,7 @@ matta eveti tān viddhi na tvahaṁ teṣhu te mayi
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1176,7 +1268,8 @@ matta eveti tān viddhi na tvahaṁ teṣhu te mayi
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_12"
-                                src="/recitation/7_12.mp3"></audio>
+                                src="/recitation/7_12.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1186,6 +1279,9 @@ matta eveti tān viddhi na tvahaṁ teṣhu te mayi
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 12)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 12)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1213,10 +1309,14 @@ mohitaṁ nābhijānāti māmebhyaḥ param avyayam
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse13_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse13_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse13_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse13_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse13_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse13_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse13_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse13_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1226,16 +1326,16 @@ mohitaṁ nābhijānāti māmebhyaḥ param avyayam
                         </div>
                     </div>
 
-                    <div id="verse13_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             त्रिगुणों से उत्पन्न इन भावों (विकारों) से सम्पूर्ण जगत् (लोग) मोहित हुआ इन (गुणों) से परे अव्यय स्वरूप मुझे नहीं जानता है
-                        </div>
-                    </div>
-                    
                     <div id="verse13_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Durch diese dreifachen Erscheinungsformen der Natur (gunas) wird dieze ganze Welt getäuscht und erkennt mich nicht, der ich über ihnen stehe und unvergänglich bin. (07.13)
 
+                        </div>
+                    </div>
+
+                    <div id="verse13_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             त्रिगुणों से उत्पन्न इन भावों (विकारों) से सम्पूर्ण जगत् (लोग) मोहित हुआ इन (गुणों) से परे अव्यय स्वरूप मुझे नहीं जानता है
                         </div>
                     </div>
 
@@ -1245,7 +1345,7 @@ mohitaṁ nābhijānāti māmebhyaḥ param avyayam
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1271,7 +1371,8 @@ mohitaṁ nābhijānāti māmebhyaḥ param avyayam
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_13"
-                                src="/recitation/7_13.mp3"></audio>
+                                src="/recitation/7_13.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1281,6 +1382,9 @@ mohitaṁ nābhijānāti māmebhyaḥ param avyayam
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 13)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 13)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1308,10 +1412,14 @@ mām eva ye prapadyante māyām etāṁ taranti te
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse14_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse14_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse14_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse14_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse14_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse14_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse14_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse14_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1321,16 +1429,16 @@ mām eva ye prapadyante māyām etāṁ taranti te
                         </div>
                     </div>
 
-                    <div id="verse14_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             यह दैवी त्रिगुणमयी मेरी माया बड़ी दुस्तर है। परन्तु जो मेरी शरण में आते हैं, वे इस माया को पार कर जाते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse14_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Diese meine göttliche mâyâ, die aus den Erscheinungsformen besteht, ist schwer zu überwinden. Diejenigen aber, die zu mir ihre Zuflucht nehmen, schreiten über sie hinaus. (Siehe 14.26, 15.19, und 18.66) (07.14)
 
+                        </div>
+                    </div>
+
+                    <div id="verse14_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             यह दैवी त्रिगुणमयी मेरी माया बड़ी दुस्तर है। परन्तु जो मेरी शरण में आते हैं, वे इस माया को पार कर जाते हैं
                         </div>
                     </div>
 
@@ -1340,7 +1448,7 @@ mām eva ye prapadyante māyām etāṁ taranti te
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1366,7 +1474,8 @@ mām eva ye prapadyante māyām etāṁ taranti te
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_14"
-                                src="/recitation/7_14.mp3"></audio>
+                                src="/recitation/7_14.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1376,6 +1485,9 @@ mām eva ye prapadyante māyām etāṁ taranti te
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 14)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 14)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1403,10 +1515,14 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse15_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse15_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse15_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse15_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse15_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse15_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse15_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse15_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1416,16 +1532,16 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
                         </div>
                     </div>
 
-                    <div id="verse15_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             दुष्कृत्य करने वाले, मूढ, नराधम पुरुष मुझे नहीं भजते हैं; माया के द्वारा जिनका ज्ञान हर लिया गया है, वे आसुरी भाव को धारण किये रहते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse15_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Die Übeltäter, die törichten, auf niedriger menschlicher Stufe stehenden, deren Verstand von der Täuschung fortgerissen wird, und die an der Natur der Dämonen teilhaben, suchen keine Zuflucht bei mir. (07.15)
 
+                        </div>
+                    </div>
+
+                    <div id="verse15_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             दुष्कृत्य करने वाले, मूढ, नराधम पुरुष मुझे नहीं भजते हैं; माया के द्वारा जिनका ज्ञान हर लिया गया है, वे आसुरी भाव को धारण किये रहते हैं
                         </div>
                     </div>
 
@@ -1435,7 +1551,7 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1461,7 +1577,8 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_15"
-                                src="/recitation/7_15.mp3"></audio>
+                                src="/recitation/7_15.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1471,6 +1588,9 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 15)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 15)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1498,10 +1618,14 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse16_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse16_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse16_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse16_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse16_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse16_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse16_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse16_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1511,16 +1635,16 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
                         </div>
                     </div>
 
-                    <div id="verse16_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे भरत श्रेष्ठ अर्जुन ! उत्तम कर्म करने वाले (सुकृतिन:) आर्त, जिज्ञासु, अर्थार्थी और ज्ञानी ऐसे चार प्रकार के लोग मुझे भजते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse16_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Die Tugendvollen, die mich verehren, sind, o Herr der Bharatas (Arjuna), von vierfacher Art: der Bedrängte, der Wahrheitssucher, der Güterbegehrende und der Weisheitssucher. (07.16)
 
+                        </div>
+                    </div>
+
+                    <div id="verse16_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे भरत श्रेष्ठ अर्जुन ! उत्तम कर्म करने वाले (सुकृतिन:) आर्त, जिज्ञासु, अर्थार्थी और ज्ञानी ऐसे चार प्रकार के लोग मुझे भजते हैं
                         </div>
                     </div>
 
@@ -1530,7 +1654,7 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1556,7 +1680,8 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_16"
-                                src="/recitation/7_16.mp3"></audio>
+                                src="/recitation/7_16.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1566,6 +1691,9 @@ māyayāpahṛita-jñānā āsuraṁ bhāvam āśhritāḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 16)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 16)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1593,10 +1721,14 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse17_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse17_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse17_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse17_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse17_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse17_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse17_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse17_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1606,16 +1738,16 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
                         </div>
                     </div>
 
-                    <div id="verse17_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             उनमें भी मुझ से नित्ययुक्त, अनन्य भक्ति वाला ज्ञानी श्रेष्ठ है, क्योंकि ज्ञानी को मैं अत्यन्त प्रिय हूँ और वह मुझे अत्यन्त प्रिय है
-                        </div>
-                    </div>
-                    
                     <div id="verse17_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Von diesen ist der Weise, der sich in ständiger Vereinigung mit dem Göttlichen befindet, dessen Hingabe nur auf eines gerichtet ist, der vorzüglichste. Denn ich bin ihm außerordentlich teuer, und er ist mir teuer. (07.17)
 
+                        </div>
+                    </div>
+
+                    <div id="verse17_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             उनमें भी मुझ से नित्ययुक्त, अनन्य भक्ति वाला ज्ञानी श्रेष्ठ है, क्योंकि ज्ञानी को मैं अत्यन्त प्रिय हूँ और वह मुझे अत्यन्त प्रिय है
                         </div>
                     </div>
 
@@ -1625,7 +1757,7 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1651,7 +1783,8 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_17"
-                                src="/recitation/7_17.mp3"></audio>
+                                src="/recitation/7_17.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1661,6 +1794,9 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 17)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 17)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1688,10 +1824,14 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse18_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse18_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse18_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse18_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse18_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse18_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse18_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse18_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1701,16 +1841,16 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
                         </div>
                     </div>
 
-                    <div id="verse18_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             (यद्यपि) ये सब उत्कृष्ट हैं, परन्तु ज्ञानी तो मेरा स्वरूप ही है ऐसा मेरा मत है, क्योंकि वह स्थिर बुद्धि ज्ञानी अति उत्तम गतिस्वरूप मुझमें अच्छी प्रकार स्थित है
-                        </div>
-                    </div>
-                    
                     <div id="verse18_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Fürwahr, edel sind sie alle, aber der Weise ist mein Selbst, so meine ich. Er ist vollkommen ausgeglichen und nimmt zu mir als dem höchsten Ziele seine Zuflucht. (Siehe 9.29) (07.18)
 
+                        </div>
+                    </div>
+
+                    <div id="verse18_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             (यद्यपि) ये सब उत्कृष्ट हैं, परन्तु ज्ञानी तो मेरा स्वरूप ही है ऐसा मेरा मत है, क्योंकि वह स्थिर बुद्धि ज्ञानी अति उत्तम गतिस्वरूप मुझमें अच्छी प्रकार स्थित है
                         </div>
                     </div>
 
@@ -1720,7 +1860,7 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1746,7 +1886,8 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_18"
-                                src="/recitation/7_18.mp3"></audio>
+                                src="/recitation/7_18.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1756,6 +1897,9 @@ priyo hi jñānino ’tyartham ahaṁ sa cha mama priyaḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 18)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 18)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1783,10 +1927,14 @@ vāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse19_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse19_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse19_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse19_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse19_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse19_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse19_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse19_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1796,16 +1944,16 @@ vāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ
                         </div>
                     </div>
 
-                    <div id="verse19_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             बहुत जन्मों के अन्त में (किसी एक जन्म विशेष में) ज्ञान को प्राप्त होकर कि 'यह सब वासुदेव है' ज्ञानी भक्त मुझे प्राप्त होता है; ऐसा महात्मा अति दुर्लभ है
-                        </div>
-                    </div>
-                    
                     <div id="verse19_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Am Ende vieler Leben geht der Weisheitsvolle zu mir ein, wissend, daß Vâsudeva (der höchste Gott) alles ist. Solch eine große Seele ist schwer zu finden. (07.19)
 
+                        </div>
+                    </div>
+
+                    <div id="verse19_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             बहुत जन्मों के अन्त में (किसी एक जन्म विशेष में) ज्ञान को प्राप्त होकर कि 'यह सब वासुदेव है' ज्ञानी भक्त मुझे प्राप्त होता है; ऐसा महात्मा अति दुर्लभ है
                         </div>
                     </div>
 
@@ -1815,7 +1963,7 @@ vāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1841,7 +1989,8 @@ vāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_19"
-                                src="/recitation/7_19.mp3"></audio>
+                                src="/recitation/7_19.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1851,6 +2000,9 @@ vāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 19)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 19)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1878,10 +2030,14 @@ taṁ taṁ niyamam āsthāya prakṛityā niyatāḥ svayā
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse20_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse20_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse20_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse20_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse20_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse20_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse20_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse20_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1891,16 +2047,16 @@ taṁ taṁ niyamam āsthāya prakṛityā niyatāḥ svayā
                         </div>
                     </div>
 
-                    <div id="verse20_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             भोगविशेष की कामना से जिनका ज्ञान हर लिया गया है, ऐसे पुरुष अपने स्वभाव से प्रेरित हुए अन्य देवताओं को विशिष्ट नियम का पालन करते हुए भजते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse20_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Diejenigen aber, deren Geist von Begierden fortgerissen wird, nehmen zu anderen Göttern ihre Zuflucht, indem sie, durch ihre eigene Natur gezwungen, verschiedene Riten vollziehen. (07.20)
 
+                        </div>
+                    </div>
+
+                    <div id="verse20_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             भोगविशेष की कामना से जिनका ज्ञान हर लिया गया है, ऐसे पुरुष अपने स्वभाव से प्रेरित हुए अन्य देवताओं को विशिष्ट नियम का पालन करते हुए भजते हैं
                         </div>
                     </div>
 
@@ -1910,7 +2066,7 @@ taṁ taṁ niyamam āsthāya prakṛityā niyatāḥ svayā
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -1936,7 +2092,8 @@ taṁ taṁ niyamam āsthāya prakṛityā niyatāḥ svayā
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_20"
-                                src="/recitation/7_20.mp3"></audio>
+                                src="/recitation/7_20.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -1946,6 +2103,9 @@ taṁ taṁ niyamam āsthāya prakṛityā niyatāḥ svayā
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 20)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 20)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -1973,10 +2133,14 @@ tasya tasyāchalāṁ śhraddhāṁ tām eva vidadhāmyaham
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse21_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse21_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse21_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse21_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse21_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse21_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse21_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse21_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -1986,16 +2150,16 @@ tasya tasyāchalāṁ śhraddhāṁ tām eva vidadhāmyaham
                         </div>
                     </div>
 
-                    <div id="verse21_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             जो—जो (सकामी) भक्त जिस—जिस (देवता के) रूप को श्रद्धा से पूजना चाहता है, उस—उस (भक्त) की मैं उस ही देवता के प्रति श्रद्धा को स्थिर करता हूँ
-                        </div>
-                    </div>
-                    
                     <div id="verse21_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Welche Gestalt auch immer ein sich fromm Hingebender gläubig zu verehren wünscht, ich befestige diesen seinen Glauben. (07.21)
 
+                        </div>
+                    </div>
+
+                    <div id="verse21_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             जो—जो (सकामी) भक्त जिस—जिस (देवता के) रूप को श्रद्धा से पूजना चाहता है, उस—उस (भक्त) की मैं उस ही देवता के प्रति श्रद्धा को स्थिर करता हूँ
                         </div>
                     </div>
 
@@ -2005,7 +2169,7 @@ tasya tasyāchalāṁ śhraddhāṁ tām eva vidadhāmyaham
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2031,7 +2195,8 @@ tasya tasyāchalāṁ śhraddhāṁ tām eva vidadhāmyaham
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_21"
-                                src="/recitation/7_21.mp3"></audio>
+                                src="/recitation/7_21.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2041,6 +2206,9 @@ tasya tasyāchalāṁ śhraddhāṁ tām eva vidadhāmyaham
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 21)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 21)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2068,10 +2236,14 @@ labhate cha tataḥ kāmān mayaiva vihitān hi tān
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse22_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse22_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse22_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse22_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse22_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse22_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse22_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse22_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2081,16 +2253,16 @@ labhate cha tataḥ kāmān mayaiva vihitān hi tān
                         </div>
                     </div>
 
-                    <div id="verse22_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             वह (भक्त) उस श्रद्धा से युक्त होकर उस देवता का पूजन करता है और उससे मेरे द्वारा विधान किये हुये इच्छित भोगों को नि:सन्देह प्राप्त करता है
-                        </div>
-                    </div>
-                    
                     <div id="verse22_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Mit diesem Glauben ausgestattet, sucht er eine solche Gestalt sich geneigt zu machen, und von ihr erlangt er seine Wünsche, die Wohltaten, die nur von mir allein verfügt werden. (07.22)
 
+                        </div>
+                    </div>
+
+                    <div id="verse22_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             वह (भक्त) उस श्रद्धा से युक्त होकर उस देवता का पूजन करता है और उससे मेरे द्वारा विधान किये हुये इच्छित भोगों को नि:सन्देह प्राप्त करता है
                         </div>
                     </div>
 
@@ -2100,7 +2272,7 @@ labhate cha tataḥ kāmān mayaiva vihitān hi tān
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2126,7 +2298,8 @@ labhate cha tataḥ kāmān mayaiva vihitān hi tān
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_22"
-                                src="/recitation/7_22.mp3"></audio>
+                                src="/recitation/7_22.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2136,6 +2309,9 @@ labhate cha tataḥ kāmān mayaiva vihitān hi tān
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 22)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 22)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2163,10 +2339,14 @@ devān deva-yajo yānti mad-bhaktā yānti mām api
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse23_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse23_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse23_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse23_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse23_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse23_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse23_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse23_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2176,16 +2356,16 @@ devān deva-yajo yānti mad-bhaktā yānti mām api
                         </div>
                     </div>
 
-                    <div id="verse23_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             परन्तु उन अल्प बुद्धि पुरुषों का वह फल नाशवान् होता है। देवताओं के पूजक देवताओं को प्राप्त होते हैं और मेरे भक्त मुझे ही प्राप्त होते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse23_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Zeitgebunden aber ist die Frucht, die diese geistig beschränkten Menschen gewinnen. Die die Götter verehren, gehen zu den Göttern; wer sich mir hingibt, kommt jedoch zu mir. (07.23)
 
+                        </div>
+                    </div>
+
+                    <div id="verse23_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             परन्तु उन अल्प बुद्धि पुरुषों का वह फल नाशवान् होता है। देवताओं के पूजक देवताओं को प्राप्त होते हैं और मेरे भक्त मुझे ही प्राप्त होते हैं
                         </div>
                     </div>
 
@@ -2195,7 +2375,7 @@ devān deva-yajo yānti mad-bhaktā yānti mām api
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2221,7 +2401,8 @@ devān deva-yajo yānti mad-bhaktā yānti mām api
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_23"
-                                src="/recitation/7_23.mp3"></audio>
+                                src="/recitation/7_23.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2231,6 +2412,9 @@ devān deva-yajo yānti mad-bhaktā yānti mām api
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 23)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 23)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2258,10 +2442,14 @@ paraṁ bhāvam ajānanto mamāvyayam anuttamam
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse24_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse24_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse24_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse24_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse24_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse24_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse24_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse24_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2271,16 +2459,16 @@ paraṁ bhāvam ajānanto mamāvyayam anuttamam
                         </div>
                     </div>
 
-                    <div id="verse24_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             बुद्धिहीन पुरुष मेरे अनुत्तम (सर्वोत्तम) अव्यय परम भाव को न जानते हुए मुझ अव्यक्त को व्यक्त मानते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse24_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Menschen ohne Verstand stellen sich mich, der unentfaltet ist, als entfaltet vor; sie kennen nicht meine höhere Natur, die unveränderliche und erhabenste. (07.24)
 
+                        </div>
+                    </div>
+
+                    <div id="verse24_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             बुद्धिहीन पुरुष मेरे अनुत्तम (सर्वोत्तम) अव्यय परम भाव को न जानते हुए मुझ अव्यक्त को व्यक्त मानते हैं
                         </div>
                     </div>
 
@@ -2290,7 +2478,7 @@ paraṁ bhāvam ajānanto mamāvyayam anuttamam
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2316,7 +2504,8 @@ paraṁ bhāvam ajānanto mamāvyayam anuttamam
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_24"
-                                src="/recitation/7_24.mp3"></audio>
+                                src="/recitation/7_24.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2326,6 +2515,9 @@ paraṁ bhāvam ajānanto mamāvyayam anuttamam
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 24)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 24)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2353,10 +2545,14 @@ mūḍho ’yaṁ nābhijānāti loko mām ajam avyayam
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse25_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse25_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse25_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse25_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse25_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse25_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse25_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse25_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2366,16 +2562,16 @@ mūḍho ’yaṁ nābhijānāti loko mām ajam avyayam
                         </div>
                     </div>
 
-                    <div id="verse25_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             अपनी योगमाया से आवृत्त मैं सबको प्रत्यक्ष नहीं होता हूँ। यह मोहित लोक (मनुष्य) मुझ जन्मरहित, अविनाशी को नहीं जानता है
-                        </div>
-                    </div>
-                    
                     <div id="verse25_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Von meiner Schöpferkraft (yogamâyâ) verhüllt, bin ich nicht allen sichtbar. Diese betörte Welt kennt mich nicht, der ich ungeborenen und unveränderlich bin. (07.25)
 
+                        </div>
+                    </div>
+
+                    <div id="verse25_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             अपनी योगमाया से आवृत्त मैं सबको प्रत्यक्ष नहीं होता हूँ। यह मोहित लोक (मनुष्य) मुझ जन्मरहित, अविनाशी को नहीं जानता है
                         </div>
                     </div>
 
@@ -2385,7 +2581,7 @@ mūḍho ’yaṁ nābhijānāti loko mām ajam avyayam
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2411,7 +2607,8 @@ mūḍho ’yaṁ nābhijānāti loko mām ajam avyayam
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_25"
-                                src="/recitation/7_25.mp3"></audio>
+                                src="/recitation/7_25.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2421,6 +2618,9 @@ mūḍho ’yaṁ nābhijānāti loko mām ajam avyayam
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 25)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 25)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2448,10 +2648,14 @@ bhaviṣhyāṇi cha bhūtāni māṁ tu veda na kaśhchana
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse26_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse26_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse26_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse26_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse26_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse26_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse26_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse26_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2461,16 +2665,16 @@ bhaviṣhyāṇi cha bhūtāni māṁ tu veda na kaśhchana
                         </div>
                     </div>
 
-                    <div id="verse26_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे अर्जुन ! पूर्व में व्यतीत हुए और वर्तमान में स्थित तथा भविष्य में होने वाले भूतमात्र को मैं जानता हूँ, परन्तु मुझे कोई भी पुरुष नहीं जानता हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse26_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Ich kenne die vergangenen Wesen, die gegenwärtigen, o Arjuna, und die zukünftigen; mich aber kennt keiner. (07.26)
 
+                        </div>
+                    </div>
+
+                    <div id="verse26_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे अर्जुन ! पूर्व में व्यतीत हुए और वर्तमान में स्थित तथा भविष्य में होने वाले भूतमात्र को मैं जानता हूँ, परन्तु मुझे कोई भी पुरुष नहीं जानता हैं
                         </div>
                     </div>
 
@@ -2480,7 +2684,7 @@ bhaviṣhyāṇi cha bhūtāni māṁ tu veda na kaśhchana
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2506,7 +2710,8 @@ bhaviṣhyāṇi cha bhūtāni māṁ tu veda na kaśhchana
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_26"
-                                src="/recitation/7_26.mp3"></audio>
+                                src="/recitation/7_26.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2516,6 +2721,9 @@ bhaviṣhyāṇi cha bhūtāni māṁ tu veda na kaśhchana
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 26)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 26)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2543,10 +2751,14 @@ sarva-bhūtāni sammohaṁ sarge yānti parantapa
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse27_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse27_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse27_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse27_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse27_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse27_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse27_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse27_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2556,16 +2768,16 @@ sarva-bhūtāni sammohaṁ sarge yānti parantapa
                         </div>
                     </div>
 
-                    <div id="verse27_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             हे परन्तप भारत ! इच्छा और द्वेष से उत्पन्न द्वन्द्वमोह से भूतमात्र उत्पत्ति काल में ही संमोह (अविवेक) को प्राप्त होते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse27_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Alle Wesen, o Bhârata (Arjuna), sind zur Verblendung geboren. Sie werden, o Feindbedränger (Arjuna), von den aus Begierde und Haß entspringenden Gegensätzen überwältigt. (07.27)
 
+                        </div>
+                    </div>
+
+                    <div id="verse27_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             हे परन्तप भारत ! इच्छा और द्वेष से उत्पन्न द्वन्द्वमोह से भूतमात्र उत्पत्ति काल में ही संमोह (अविवेक) को प्राप्त होते हैं
                         </div>
                     </div>
 
@@ -2575,7 +2787,7 @@ sarva-bhūtāni sammohaṁ sarge yānti parantapa
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2601,7 +2813,8 @@ sarva-bhūtāni sammohaṁ sarge yānti parantapa
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_27"
-                                src="/recitation/7_27.mp3"></audio>
+                                src="/recitation/7_27.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2611,6 +2824,9 @@ sarva-bhūtāni sammohaṁ sarge yānti parantapa
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 27)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 27)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2638,10 +2854,14 @@ te dvandva-moha-nirmuktā bhajante māṁ dṛiḍha-vratāḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse28_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse28_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse28_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse28_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse28_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse28_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse28_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse28_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2651,16 +2871,16 @@ te dvandva-moha-nirmuktā bhajante māṁ dṛiḍha-vratāḥ
                         </div>
                     </div>
 
-                    <div id="verse28_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             परन्तु जिन पुण्यकर्मी पुरुषों का पाप नष्ट हो गया है, वे द्वन्द्वमोह से निर्मुक्त और दृढ़वती पुरुष मुझे भजते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse28_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Aber jene Menschen, die tugendvolle Taten vollbringen, in denen die Sünde zu Ende gekommen ist (die der Sünde abgestorben sind), sie, die vom Trug der Gegensätze befreit sind, verehren mich standhaft in ihren Gelübden. (07.28)
 
+                        </div>
+                    </div>
+
+                    <div id="verse28_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             परन्तु जिन पुण्यकर्मी पुरुषों का पाप नष्ट हो गया है, वे द्वन्द्वमोह से निर्मुक्त और दृढ़वती पुरुष मुझे भजते हैं
                         </div>
                     </div>
 
@@ -2670,7 +2890,7 @@ te dvandva-moha-nirmuktā bhajante māṁ dṛiḍha-vratāḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2696,7 +2916,8 @@ te dvandva-moha-nirmuktā bhajante māṁ dṛiḍha-vratāḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_28"
-                                src="/recitation/7_28.mp3"></audio>
+                                src="/recitation/7_28.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2706,6 +2927,9 @@ te dvandva-moha-nirmuktā bhajante māṁ dṛiḍha-vratāḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 28)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 28)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2733,10 +2957,14 @@ te brahma tadviduḥ kṛitsnam adhyātmaṁ karma chākhilam
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse29_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse29_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse29_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse29_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse29_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse29_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse29_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse29_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2746,16 +2974,16 @@ te brahma tadviduḥ kṛitsnam adhyātmaṁ karma chākhilam
                         </div>
                     </div>
 
-                    <div id="verse29_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             जो मेरे शरणागत होकर जरा और मरण से मुक्ति पाने के लिए यत्न करते हैं, वे पुरुष उस ब्रह्म को, सम्पूर्ण अध्यात्म को और सम्पूर्ण कर्म को जानते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse29_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Die ihre Zuflucht bei mir nehmen und nach Befreiung von Alter und Tod trachten, sie kennen das Brahman (oder das Absolute) ganz, (sie kennen) das Selbst und alle Werke. (07.29)
 
+                        </div>
+                    </div>
+
+                    <div id="verse29_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             जो मेरे शरणागत होकर जरा और मरण से मुक्ति पाने के लिए यत्न करते हैं, वे पुरुष उस ब्रह्म को, सम्पूर्ण अध्यात्म को और सम्पूर्ण कर्म को जानते हैं
                         </div>
                     </div>
 
@@ -2765,7 +2993,7 @@ te brahma tadviduḥ kṛitsnam adhyātmaṁ karma chākhilam
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2791,7 +3019,8 @@ te brahma tadviduḥ kṛitsnam adhyātmaṁ karma chākhilam
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_29"
-                                src="/recitation/7_29.mp3"></audio>
+                                src="/recitation/7_29.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2801,6 +3030,9 @@ te brahma tadviduḥ kṛitsnam adhyātmaṁ karma chākhilam
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 29)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 29)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
@@ -2828,10 +3060,14 @@ prayāṇa-kāle ’pi cha māṁ te vidur yukta-chetasaḥ
 
                 <div class="section-heading">TRANSLATION</div>
                 <ul class="nav nav-pills">
-                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill" href="#verse30_en">EN</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse30_hi">हि</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse30_ta">த</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill" href="#verse30_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link active" data-bs-toggle="pill"
+                            href="#verse30_en">EN</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse30_de">DE</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse30_hi">हि</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" data-bs-toggle="pill"
+                            href="#verse30_ta">த</a></li>
                 </ul>
 
                 <div class="tab-content">
@@ -2841,16 +3077,16 @@ prayāṇa-kāle ’pi cha māṁ te vidur yukta-chetasaḥ
                         </div>
                     </div>
 
-                    <div id="verse30_hi" class="tab-pane fade">
-                        <div class="translation-verse hi-text">
-                             जो पुरुष अधिभूत और अधिदैव तथा अधियज्ञ के सहित मुझे जानते हैं, वे युक्तचित्त वाले पुरुष अन्तकाल में भी मुझे जानते हैं
-                        </div>
-                    </div>
-                    
                     <div id="verse30_de" class="tab-pane fade">
                         <div class="translation-verse">
                             Die mich als den einen kennen, der die materiellen und göttlichen Aspekte lenkt und alle Opfer, sie, deren Sinn in Einklang gebracht ist, erkennen mich auch in der Stunde ihres Abscheidens (von hier). (07.30)
 
+                        </div>
+                    </div>
+
+                    <div id="verse30_hi" class="tab-pane fade">
+                        <div class="translation-verse hi-text">
+                             जो पुरुष अधिभूत और अधिदैव तथा अधियज्ञ के सहित मुझे जानते हैं, वे युक्तचित्त वाले पुरुष अन्तकाल में भी मुझे जानते हैं
                         </div>
                     </div>
 
@@ -2860,7 +3096,7 @@ prayāṇa-kāle ’pi cha māṁ te vidur yukta-chetasaḥ
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <hr>
@@ -2886,7 +3122,8 @@ prayāṇa-kāle ’pi cha māṁ te vidur yukta-chetasaḥ
                                     class="fa fa-stop"></span></button>
 
                             <audio id="recitation_30"
-                                src="/recitation/7_30.mp3"></audio>
+                                src="/recitation/7_30.mp3"
+                                preload="none"></audio>
                         </div>
                     </div>
                     <div class="col-8">
@@ -2896,11 +3133,32 @@ prayāṇa-kāle ’pi cha māṁ te vidur yukta-chetasaḥ
                         <button class="btn btn-verse-menu mx-1 btn-secondary"
                             onClick="ShareVerseLink('#copy-verse-modal', '#copy-verse-input-box', 7, 30)"
                             style="float:right;"><span class="fa fa-share"></span></button>
+                        <button class="btn btn-verse-menu mx-1 btn-secondary"
+                            onClick="FetchCommentary(7, 30)"
+                            style="float:right;"><span class="fa fa-comment"></span></button>
                     </div>
                 </div>
             </div>
         </div>
         
+    </div>
+
+    <!-- COMMENTARY MODAL -->
+    <div class="modal fade" tabindex="-1" id="commentary-modal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header" id="commentary-title">
+                    <h5 class="modal-title">Adi Shankaracharya's Commentary (English)</h5>
+                </div>
+
+                <div class="modal-body">
+                    <div id="commentary-text">
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <!-- SHARE VERSE MODAL -->
